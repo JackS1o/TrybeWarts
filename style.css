@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Josefin Sans, sans-serif;
+}
+
+body {
+  background-color: rgb(238, 235, 235);
+  background-image: url('/images/USH_Hogwarts_VB.jpg');
+  backdrop-filter: blur(4px);
+  background-attachment: fixed;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trybewarts-header-logo {
+  width: 75px;
+}
+
+h1 {
+  color: white;
+}
+
+#email , #password , #login-btn {
+  border-radius: 7px;
+  border: 0;
+  height: 30px;
+  width: 35%;
+  padding-left: 5px;
+  background-color: rgb(203, 221, 217);
+}
+
+#login-btn {
+  color: white;
+  background-color: rgb(58, 21, 92);
+  width: 25%;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  justify-items: space-between;
+}
+
+
+#evaluation-form {
+  display: flex;
+  flex-basis: 675px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2%;
+  background-color: rgba(203, 221, 217, 0.247);
+  margin: 3%;
+  border-radius: 5%;
+}
+
+#skill-family {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#trybewarts-family {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#skills-to-learn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.trybewarts-login {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.divRadio {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 5%;
+  margin: 10px;
+}
+
+#submit-btn {
+  color: white;
+  background-color: rgb(58, 21, 92);
+  padding: 0;
+  border: 0;
+  border-radius: 7px;
+  height: 40px;
+  margin: 15px;
+}
+
+#submit-btn:disabled {
+  background-color: rgb(71, 22, 134);
+  height: 40px;
+  margin: 15px;
+}
+
+footer {
+  display: flex;
+  background-color: rgb(74, 76, 83);
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 15px;
+  height: 40px;
+}
+
+#label-rate {
+  display: flex;
+}
+
+#titulo {
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+#input-email , #input-name , #input-lastname , #house {
+  border-radius: 7px;
+  border: 0;
+  height: 30px;
+  width: 100%;
+  padding-left: 5px;
+  margin: 2px;
+  background-color: rgb(203, 221, 217);
+}
+
+.nomeSobrenome , .emailHouse {
+  display: flex;
+  flex-basis: 5%;
+  margin-bottom: 10px;
+}
+
+#textarea {
+  height: 50px;
+  width: 100%;
+  border: solid rgb(71, 22, 134) 1px;
+  background-color: rgb(203, 221, 217);
+  resize: none;
+  padding: 2%;
+}
+
+#label-infos {
+  margin: 15px;
+}
+
+#label-family {
+  margin-bottom: 10px;
+}
+
+hr {
+  color: white;
+  margin: 5px 0;
+}
+
+p {
+  display: flex;
+  margin-top: 10px;
+}
+
+#counter {
+  margin-top: -20px;
+  z-index: 0;
+  margin-left: 95%;
+  padding-bottom: 20px;
+  color: rgba(0, 0, 0, 0.63);
+}
